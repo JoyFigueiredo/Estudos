@@ -8,9 +8,24 @@ console.log(typeof(mensagem));
 
 //Função
 
-function somar(numA, numB){
+function somar(numA, numB){ 
     return numA + numB;
 }
 
 let resultado = somar(10, 3);
 console.log(resultado);
+
+let somar = function (numA, numB) { 
+    return numA + numB;
+}
+
+let resultado = somar(10, 3);
+console.log(resultado);
+
+let somar = (numA, numB) => { 
+    return numA + numB;
+}
+
+let resultado = somar(10, 3);
+console.log(resultado);
+
