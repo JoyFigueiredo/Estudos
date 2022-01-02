@@ -41,3 +41,41 @@ finaldesemana.push('sexta-feira');
 console.dir(finaldesemana);
 
 */
+
+
+//Objetos
+/*
+let agenda = {
+    nome: 'Joice',
+    sobrenome: 'Figueiredo',
+    idade: '26',
+    nomeCompleto: function(){
+        return this.nome + this.sobrenome;
+    }
+}
+console.dir(agenda);
+console.log(agenda.nome);
+console.log(agenda.nomeCompleto());
+*/
+
+//Condicional
+/*
+let idade = 17
+
+if(idade>= 18){
+    console.log('Voce é maior de idade');
+}else{
+    console.log('Voce é menor de idade');
+}
+*/
+//Loops
+/*
+let finaldesemana = new Array('sabado','doomingo');
+finaldesemana.forEach(function(dia){
+    console.log('Final de semana: '+ dia);
+})
+
+for(let dia of finaldesemana){
+    console.log(dia);
+}
+*/
