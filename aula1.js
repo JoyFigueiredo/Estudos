@@ -5,7 +5,7 @@ console.log(mensagem);
 mensagem = 'Oi';
 console.log(typeof(mensagem));
 */
-
+/*
 //Função
 
 function somar(numA, numB){ 
@@ -28,4 +28,16 @@ let somar = (numA, numB) => {
 
 let resultado = somar(10, 3);
 console.log(resultado);
+*/
 
+//Vetores 
+/*
+let finaldesemana = new Array('sabado','doomingo');
+console.log(finaldesemana[1]);
+
+let finaldesemana = ['sabado','doomingo'];
+console.log(finaldesemana[1]);
+finaldesemana.push('sexta-feira');
+console.dir(finaldesemana);
+
+*/
