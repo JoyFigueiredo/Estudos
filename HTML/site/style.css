@@ -1,6 +1,5 @@
 body{
-  font-family: 'Montserrat', sans-serif;
-	background: #F6DEE5
+  font-family: 'Montserrat', sans-serif;	
 }
 
 header {
@@ -60,15 +59,24 @@ form label, form legend {
 	margin: 0 0 10px;
 }
 
+main{
+	background: linear-gradient(#F6DEE5, #ffffff,#ffffff ,#F6DEE5);
+}
+
 footer {
 	text-align: center;
 	padding: 40px 0;
+	background: #F6DEE5
 }
 
 .copyright {
 	color: #050303;
 	font-size: 13px;
 	margin: 20px 0 0;
+}
+
+.corpoSite{
+	background: #ffffff;
 }
 
 @media screen and (max-width: 480px){
