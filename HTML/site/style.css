@@ -20,6 +20,12 @@ header {
 	margin: 0 auto;
 }
 
+#rodape{
+	position: relative;
+	width: 80px;
+	margin: 0 auto;
+}
+
 nav {
 	position: absolute;
 	top: 110px;
