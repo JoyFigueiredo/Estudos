@@ -2,6 +2,23 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+header {
+	background: #F6DEE5;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#logoTopo{
+	position: relative;
+	width: 360px;
+	margin: 0 auto;
+}
+
 nav {
 	position: absolute;
 	top: 110px;
@@ -22,17 +39,39 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #8d4289;
 	text-decoration: underline;
 }
 
-header {
-	background: #F6DEE5;
-	padding: 20px 0;
+form {
+	margin: 40px 0;
 }
 
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #050303;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px){
+  .caixa,#logoTopo{
+    width: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
 }
